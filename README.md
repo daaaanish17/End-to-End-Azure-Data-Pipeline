@@ -7,11 +7,17 @@ The primary focus of this project is **data ingestion, transformation, orchestra
 **Source → Ingestion → Storage → Transformation → Analytics**
 
 **- Source:** On-premises SQL Server (AdventureWorks)
+
 **- Ingestion:** Azure Data Factory with Self-Hosted Integration Runtime
+
 **- Storage:** Azure Data Lake Storage Gen2 (Bronze, Silver, Gold layers)
+
 **- Transformation:** Azure Databricks (Apache Spark)
+
 **- Analytics Layer:** Azure Synapse Analytics (SQL views on curated data)
+
 **- Security:** Azure Key Vault
+
 **- Orchestration:** Azure Data Factory pipelines and triggers
 
 ## Data Flow
